@@ -1,21 +1,36 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>API_CP</title>
   <link rel="stylesheet" href="stylesheet.css">
-  <script text="type/javascript" src="javascript.js"></script>
 </head>
 <body>
 
+<h1>An automatic greeting card maker </h1>
 
 
+<div id="cardMaker">
+   <button class = "button">Make Greeting card </button> 
+</div>
+
+<form>
+  <label>Get Image</label>
+  <input id="searchInput" type="text"></input><br/>
+  <label>Add Text</label>
+  <input id="textInput" type="text"></input><br/>
+  <input id="photoSearch" type="submit" value="Submit"></input>
+</form>
 
 
-
-  <footer>
-    <p> <a href="https://github.com/Schultzmaster/API_CP.git" target = "_blank"> github code available here </a> </p>
-  </footer>
+  <p id="photoSpot">  </p>
 
 
+ <footer>
+   <p> <a href="https://github.com/Schultzmaster/API_CP.git" target = "_blank"> github code available here </a> </p>
+ </footer>
+
+  <script src='jquery.min.js'></script>
+  <script src="javascript.js"></script>
 </body>
 </html>
